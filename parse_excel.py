@@ -55,7 +55,7 @@ def read_file():
     my_excel = panda.DataFrame(data)
 
     #send out to an excel file
-    excel_filename = 'events.xlsx'
+    excel_filename = 'Tuesday_excel.xlsx'
     my_excel.to_excel(excel_filename, index=False, engine='openpyxl')
 
     print(f"Data has been exported to {excel_filename}")
