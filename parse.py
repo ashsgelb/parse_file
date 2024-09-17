@@ -1,3 +1,5 @@
+#parse and print using pretty print
+
 import sys
 import re
 from prettytable import PrettyTable
