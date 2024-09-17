@@ -1,12 +1,12 @@
-Name: Ashley Gelber
+**Name**: Ashley Gelber
 
-Date: 9/17/2024
+**Date**: 9/17/2024
 
-Task: Go through the agenda and put it into a spreadsheet with catagroies for Day, Time, Title, and Details.
+**Task**: Go through the agenda and put it into a spreadsheet with catagroies for Day, Time, Title, and Details.
 
-Idea: Instead of tediously copy and pasting, write a python script that can generate this spreadsheet.
+**Idea**: Instead of tediously copy and pasting, write a python script that can generate this spreadsheet.
 
-Implementation: 
+**Implementation**: 
 
     1. Parse the code based off of formatting given on the website (https://www.p3highereducation.com/agenda/)
 
@@ -14,7 +14,7 @@ Implementation:
 
     3. Create another file using same code basis that uses pandas to allow export to an excel file
 
-Example Files (took text from website):
+**Example Files** (took text from website):
 
     1. sunday.txt
 
@@ -22,7 +22,9 @@ Example Files (took text from website):
 
     3. tuesday.txt
 
-Pretty Table Output:
+**Output**
+
+*Pretty Table*
 
     1. Sunday_table -- showing only events on Sunday
 
@@ -32,7 +34,7 @@ Pretty Table Output:
 
     4. All_table -- show events for all three days
 
-Excel Output:
+*Excel*:
 
     1. Sunday_excel -- showing only events on Sunday
 
