@@ -48,17 +48,22 @@ Excel Output:
 *Prerequisites*
 
 Before running the script, ensue you have the following installed:
+    
     1. Python 3.x
+
     2. Required Python Library: prettytable
 
 You can intall the necessary libraries using pip:
+    
     pip isntall prettytable
 
 
 *Usage*
     
 To run the script, use the following command in your terminal:
+    
     python3 parse.py <input_file_1>.txt <input_file_2>.txt ... <input_file_n>.txt
+
 
 Arguments
     <input_1>.txt and <input_2>.txt: Text files containing the event data to be processed. You can specify multiple input files.
@@ -68,17 +73,23 @@ Arguments
 *Prerequisites*
 
 Before running the script, ensue you have the following installed:
+    
     1. Python 3.x
+
     2. Required Python Library: openpyxl
 
+
 You can intall the necessary libraries using pip:
+    
     pip isntall prettytable
 
 
 *Usage*
     
 To run the script, use the following command in your terminal:
+    
     python3 parse_excel.py <input_file_1>.txt <input_file_2>.txt ... <input_file_n>.txt
+    
 
 Arguments
     <input_1>.txt and <input_2>.txt: Text files containing the event data to be processed. You can specify multiple input files.
