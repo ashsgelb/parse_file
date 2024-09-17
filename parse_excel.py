@@ -146,19 +146,25 @@ def read_file():
         except Exception as e:
             print(f"An error occurred: {e}")
 
-    # print(table)
-
-    #need to create a data frame for mysefl
-    data  = {
-        "Day": [all_events.day for all_events in all_events],
-        "Time": [all_events.time for all_events in all_events],
-        "Title": [all_events.title for all_events in events],
-        "Description": [all_events.description for all_events in all_events]
+    # Prepare data for DataFrame
+    data = {
+        "Day": [],
+        "Time": [],
+        "Title": [],
+        "Description": []
     }
 
+    #populate the data dictionary add in n/a if not the same length
+    for event in all_events:
+        data["Day"].append(event.day if event.day else 'n/a')
+        data["Time"].append(event.time if event.time else 'n/a')
+        data["Title"].append(event.title if event.title else 'n/a')
+        data["Description"].append(event.description if event.description else 'n/a')
+
+    #use panda to make the sheet
     my_excel = panda.DataFrame(data)
 
-    # Save the DataFrame to an Excel file
+    #send out to an excel file
     excel_filename = 'events.xlsx'
     my_excel.to_excel(excel_filename, index=False, engine='openpyxl')
 
