@@ -1,14 +1,10 @@
-Name: 
-    Ashley Gelber
+Name: Ashley Gelber
 
-Date: 
-    9/17/2024
+Date: 9/17/2024
 
-Task: 
-    Go through the agenda and put it into a spreadsheet with catagroies for Day, Time, Title, and Details
+Task: Go through the agenda and put it into a spreadsheet with catagroies for Day, Time, Title, and Details.
 
-Idea: 
-    Instead of tediously copy and pasting, write a python script that can generate this spreadsheet. Use the formatting given on the website (https://www.p3highereducation.com/agenda/)
+Idea: Instead of tediously copy and pasting, write a python script that can generate this spreadsheet.
 
 Implementation: 
 
@@ -37,12 +33,13 @@ Pretty Table Output:
     4. All_table -- show events for all three days
 
 Excel Output:
+
     1. Sunday_excel -- showing only events on Sunday
 
     2. Monday_excel -- showing only events on Monday
 
     3. Tuesday_excel -- showing only events on Tuesday
-    
+
     4. All_excel -- show events for all three days
 
 
